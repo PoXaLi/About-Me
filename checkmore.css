@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Changa', sans-serif;
+    color: white;
+    background: #202731;
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    text-align: center;
+   
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 22px;
+}
+.allAboutMe{
+    background: red;
+}
+.preferences{
+    background: orange;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 160px;
+}
+
+.wave .shape-fill {
+    fill: orange;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px red;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #f07a7a;
+    transition: background-color 0.5s;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #700000;
+}
+.cbtn{
+    text-decoration: none;
+    padding: 13px 45px;
+    position: relative;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-shadow: 0;   
+}
+.cbtn-1{
+    background: #111;
+    color: blue;
+    font-weight: 800;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin: 30px 20px;
+    padding: 10px 50px;
+}
+.cbtn-1:hover{
+    background-color: blue;
+    color: #111;
+    box-shadow: inset 0 0 2em 0 blue, 0 0 2em 0 blue;
+}
